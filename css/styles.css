@@ -2,25 +2,14 @@ body {
   background-color: lightgrey;
 }
 
-.parent {
-  position: relative;
-  margin: auto;
-  top: 100px;
-  width: 90%;
-  height: 400px;
-  background-color: black;
-}
-
-.child1 {
-  position: absolute;
-  margin: auto;
-  top: 200px;
-  width: 70%;
-  height: 225px;
-  left: 150px;
+.container-fluid {
   background-color: darkviolet;
 }
 
-.attribution { font-size: 11px; text-align: center;
+#info {
+  font-size: 11px;
+  text-align: center;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution-info a {
+  color: hsl(228, 45%, 44%);
+}
