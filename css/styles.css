@@ -5,15 +5,19 @@ body {
 
 #title{
   background-color: #000;
-  margin: 7% 3%;
+  margin: 7% 5%;
 }
 
 .row{
-  padding: 9% 15%;
+  padding: 9% 11%;
 }
 
 .col-6{
   background-color: darkviolet;
+}
+
+.color-col{
+  margin-right: 0;
 }
 
 .image-fluid{
@@ -21,9 +25,6 @@ body {
   height: auto;
 }
 
-#cta{
-
-}
 
 .attribution {
   font-size: 11px;
