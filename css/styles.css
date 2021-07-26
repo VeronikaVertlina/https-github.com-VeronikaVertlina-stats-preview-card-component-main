@@ -1,41 +1,38 @@
 body {
-  background-color: #fff;
+  background-color: lightgrey;
   font-family: Montserrat;
+  text-align: center;
 }
 
 .parent{
   background-color: lightgrey;
-  position: absolute;
-  width: auto;
-  height: 100vh;
-
+  padding: 100px;
+  height: 90%;
 }
 
 .child{
   background-color: #000;
-  position: relative;
-  width: 300px;
-  height: 200px;
-
+  padding: 60px;
 }
 
-.element{
-  background-color: violet;
+.row{
+  background-color: darkviolet;
   position: relative;
-  width: 60%;
-  height: 40%;
+  margin: 40px;
+  width: 80%;
+  height: 50%;
 
 }
 
 .image-fluid{
-  /* max-width: 100%;
-  height: auto; */
+  /* width: 100%; */
+
 }
 
 
 .attribution {
-  font-size: 11px;
-  text-align: center;
+  /* font-size: 11px;
+  text-align: center; */
   /* padding: 20px; */
 }
 .attribution a {
