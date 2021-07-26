@@ -17,8 +17,8 @@ body {
 
 .row{
   background-color: darkviolet;
-  margin: auto 12px;
-  padding: 0;  
+  margin: 0;
+  padding: 0;
 }
 
 .text-item{
@@ -27,7 +27,7 @@ body {
 }
 
 .image-item{
-
+  padding-right: 0;
 }
 
 .attribution {
