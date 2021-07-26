@@ -1,34 +1,34 @@
 body {
-  background-color: lightgrey;
+  background-color: #fff;
   font-family: Montserrat;
   text-align: center;
 }
 
 .parent{
-  background-color: lightgrey;
-  padding: 100px;
-  height: 90%;
+  background-color: #fff;
+  padding: 180px 60px;
+  height: 40%;
 }
 
 .child{
   background-color: #000;
-  padding: 60px;
+  padding: 180px;
 }
 
 .row{
   background-color: darkviolet;
-  position: relative;
-  margin: 40px;
-  width: 80%;
-  height: 50%;
-
+  margin: auto 12px;
+  padding: 0;  
 }
 
-.image-fluid{
-  /* width: 100%; */
-
+.text-item{
+  padding: 60px;
+  text-align: left;
 }
 
+.image-item{
+
+}
 
 .attribution {
   /* font-size: 11px;
