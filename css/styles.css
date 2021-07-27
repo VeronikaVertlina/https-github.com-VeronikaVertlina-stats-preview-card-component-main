@@ -2,32 +2,41 @@ body {
   background-color: #fff;
   font-family: Montserrat;
   text-align: center;
+  font-weight: 600;
 }
 
 .parent{
   background-color: #fff;
-  padding: 180px 60px;
+  padding: 150px 60px;
   height: 40%;
 }
 
 .child{
   background-color: #000;
-  padding: 180px;
+  padding: 150px;
 }
 
 .row{
-  background-color: darkviolet;
+  background-color: #52057B;
   margin: 0;
   padding: 0;
+
 }
 
 .text-item{
-  padding: 60px;
+  padding: 40px;
   text-align: left;
+  color: #fff;
+  background-color: #21094E;
+
 }
 
-.image-item{
-  padding-right: 0;
+.image-fluid{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   opacity: 50%;
 }
 
 .attribution {
