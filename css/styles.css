@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #EEEEEE;
   font-family: Montserrat;
   text-align: center;
   font-weight: 600;
@@ -11,28 +11,32 @@ body {
 }
 
 .parent{
-  background-color: #fff;
+  background-color: #EEEEEE;
   padding: 150px 60px;
   height: 40%;
 }
 
 .child{
   background-color: #000;
-  padding: 150px;
-  border-radius: 2px;
+  padding: 150px 100px;
+  border-radius: 3px;
 }
 
 .row{
-  background-color: #52057B;
+  background-color: #3c005a;
   margin: 0;
   padding: 0;
+  border-radius: 3px;
 }
 
 .text-item{
+  background-color: #19003f;
+  position: relative;
   padding: 40px;
   text-align: left;
   color: #fff;
-  background-color: #21094E;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 
 }
 
@@ -40,13 +44,16 @@ body {
   position: relative;
   padding-left: 0;
   padding-right: 0;
-
 }
 
 .image-fluid{
   display: block;
    width: 100%;
-   opacity: 50%;
+   height: 100%;
+   opacity: 55%;
+   saturate: 80%;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
 }
 
 .attribution {
