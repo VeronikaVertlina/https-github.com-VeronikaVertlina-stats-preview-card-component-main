@@ -2,6 +2,7 @@ body {
   background-color: #EEEEEE;
   font-family: Montserrat;
   text-align: center;
+  position: relative;
 
 }
 
@@ -19,6 +20,7 @@ h1 {
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
+  position: relative;
 }
 
 .parent{
@@ -33,7 +35,8 @@ h1 {
   border-radius: 3px;
   font-family: Montserrat;
   font-weight: 900;
-  width: 100%;
+  /* width: 100%; */
+
 }
 
 .row{
@@ -41,24 +44,25 @@ h1 {
   margin: 0;
   padding: 0;
   border-radius: 3px;
+position: absolute;
 }
 
 .text-item{
   background-color: #19003f;
-  position: relative;
-  padding: 80px;
+    padding: 80px;
   text-align: left;
   color: #fff;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  position: absolute;
 
 
 }
 
 .image-item{
-  position: relative;
   padding-left: 0;
   padding-right: 0;
+
 }
 
 .image-fluid{
@@ -69,6 +73,7 @@ h1 {
    saturate: 80%;
    border-top-right-radius: 3px;
    border-bottom-right-radius: 3px;
+   position: relative;
 }
 
 /* .attribution {
@@ -81,10 +86,15 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  #title {
-    text-align: center;
+  .child{
+    position: absolute;
+
   }
-  div.image-item {
+
+
+  .image-item{
     position: static;
+
+
   }
 }
