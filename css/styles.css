@@ -4,6 +4,7 @@ body {
   text-align: center;
   position: relative;
 
+
 }
 
 font {
@@ -21,30 +22,37 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   position: relative;
+
 }
 
 .parent{
+  align: center;
   background-color: #EEEEEE;
   padding: 150px 60px;
-  height: 40%;
+  width: 100%;
+  height: 100%;
 }
 
 .child{
+  align: center;
   background-color: #000;
-  padding: 150px 100px;
   border-radius: 3px;
   font-family: Montserrat;
   font-weight: 900;
-  /* width: 100%; */
+  width: 70%;
+  height: 70%;
 
 }
 
 .row{
+  align: center;
   background-color: #3c005a;
   margin: 0;
   padding: 0;
   border-radius: 3px;
-position: absolute;
+  width: 70%;
+  height: 70%;
+
 }
 
 .text-item{
@@ -54,18 +62,20 @@ position: absolute;
   color: #fff;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  position: absolute;
+
 
 
 }
 
 .image-item{
+  display: block;
   padding-left: 0;
   padding-right: 0;
 
+
 }
 
-.image-fluid{
+/* .image-fluid{
   display: block;
    width: 100%;
    height: 100%;
@@ -73,8 +83,8 @@ position: absolute;
    saturate: 80%;
    border-top-right-radius: 3px;
    border-bottom-right-radius: 3px;
-   position: relative;
-}
+
+} */
 
 /* .attribution {
   font-size: 11px;
@@ -85,7 +95,7 @@ position: absolute;
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .child{
     position: absolute;
 
@@ -97,4 +107,4 @@ position: absolute;
 
 
   }
-}
+} */
