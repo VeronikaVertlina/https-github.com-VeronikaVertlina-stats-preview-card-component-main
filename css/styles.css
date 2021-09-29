@@ -1,21 +1,36 @@
 body {
   background-color: #ffffff;
-  
+}
+
+img {
+
 }
 
 .main-window {
-  background-color: #232A61;
-  width: 70%;
-  height: 70%;
-  position: absolute;
+  padding: 70px;
 
 }
 
 .card-window {
   background-color: #1B1938;
-  width: 70%;
-  height: 70%;
-  position: absolute;
+  color: #ffffff;
+  text-align: left;
+  width: 1440px;
+  height: 510px;
+}
+
+.colomn {
+  background-color: #232A61;
+  float: left;
+  width: 50%;
+}
+
+.row {
+  
+}
+.colomn img {
+  width: 100%;
+  height: 100%;
 }
 
 .accent {
