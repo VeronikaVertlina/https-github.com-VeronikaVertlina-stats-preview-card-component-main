@@ -1,4 +1,35 @@
 body {
+  background-color: #ffffff;
+  
+}
+
+.main-window {
+  background-color: #232A61;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+
+}
+
+.card-window {
+  background-color: #1B1938;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+
+.accent {
+  background-color: #AA5CDB;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #3E52A3; }
+
+
+/*-----------Old version--------------------------*/
+
+/* body {
   background-color: #EEEEEE;
   font-family: Montserrat;
   text-align: center;
@@ -25,18 +56,15 @@ p {
   padding-left: 0;
   padding-right: 0;
   /* position: relative; */
-
-}
-
-.parent{
+/* } */
+/* .parent{
   align: center;
   background-color: #EEEEEE;
   padding: 150px 60px;
   width: 100%;
   height: 100%;
-}
-
-.child{
+} */
+/* .child{
   align: center;
   background-color: #000;
   border-radius: 3px;
@@ -44,23 +72,15 @@ p {
   font-weight: 400;
   padding: 150px;
 
-  /* width: 70%;
-  height: 70%; */
-
-}
-
-.row{
+} */
+/* .row{
   align: center;
   background-color: #3c005a;
   margin: 0;
   padding: 0;
   border-radius: 8px;
-  /* width: 70%;
-  height: 70%; */
-
-}
-
-.text-item{
+} */
+/* .text-item{
   background-color: #19003f;
   padding: 80px;
   text-align: left;
@@ -70,17 +90,15 @@ p {
 
 
 
-}
-
-.image-item{
+}  */
+/* .image-item{
   display: block;
   padding-left: 0;
   padding-right: 0;
 
 
-}
-
-.image-fluid{
+} */
+/* .image-fluid{
   display: block;
    width: 100%;
    height: 100%;
@@ -89,18 +107,16 @@ p {
    border-top-right-radius: 8px;
    border-bottom-right-radius: 8px;
 
-}
-
-.attribution {
+} */
+/* .attribution {
   font-size: 11px;
   text-align: center;
   padding: 20px;
-}
-.attribution a {
+} */
+/* .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (max-width: 600px) {
+} */
+/* @media (max-width: 600px) {
   .child{
     position: absolute;
 
@@ -112,4 +128,4 @@ p {
 
 
   }
-}
+} */
