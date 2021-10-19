@@ -1,146 +1,46 @@
+
 body {
   background-color: #ffffff;
+  text-align: center;
+  margin: 5%;
 }
 
-img {
+footer {
+  /* background-color: #1B1938; */
+  text-align: center;
+  margin-top: 5%;
 
 }
 
-.main-window {
-  padding: 70px;
 
-}
-
-.card-window {
-  background-color: #1B1938;
-  color: #ffffff;
-  text-align: left;
-  width: 1440px;
-  height: 510px;
-}
-
-.colomn {
+.container {
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  margin: 0;
   background-color: #232A61;
+}
+
+.card {
   float: left;
+  text-align: center;
   width: 50%;
 }
 
-.row {
-  
-}
-.colomn img {
-  width: 100%;
-  height: 100%;
-}
-
-.accent {
-  background-color: #AA5CDB;
-}
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: #3E52A3; }
-
-
-/*-----------Old version--------------------------*/
-
-/* body {
-  background-color: #EEEEEE;
-  font-family: Montserrat;
-  text-align: center;
-  position: relative;
-}
-
-font {
-  color: violet;
-}
-
-h1 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 600;
-  font-size: 2.5rem;
-  line-height: 1.2;
-
-}
-
-p {
-  margin-top: 2rem;
-}
-
-.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-  /* position: relative; */
-/* } */
-/* .parent{
-  align: center;
-  background-color: #EEEEEE;
-  padding: 150px 60px;
-  width: 100%;
-  height: 100%;
-} */
-/* .child{
-  align: center;
-  background-color: #000;
-  border-radius: 3px;
-  font-family: Montserrat;
-  font-weight: 400;
-  padding: 150px;
-
-} */
-/* .row{
-  align: center;
-  background-color: #3c005a;
-  margin: 0;
-  padding: 0;
-  border-radius: 8px;
-} */
-/* .text-item{
-  background-color: #19003f;
-  padding: 80px;
-  text-align: left;
-  color: #fff;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-
-
-
-}  */
-/* .image-item{
-  display: block;
-  padding-left: 0;
-  padding-right: 0;
-
-
-} */
-/* .image-fluid{
-  display: block;
-   width: 100%;
-   height: 100%;
-   opacity: 55%;
-   saturate: 80%;
-   border-top-right-radius: 8px;
-   border-bottom-right-radius: 8px;
-
-} */
-/* .attribution {
+.attribution {
   font-size: 11px;
   text-align: center;
-  padding: 20px;
-} */
-/* .attribution a {
-  color: hsl(228, 45%, 44%);
-} */
-/* @media (max-width: 600px) {
-  .child{
-    position: absolute;
+}
+.attribution a {
+  color: #3E52A3;
+}
 
+.image {
+  width: 100%;
   }
 
-
-  .image-item{
-    position: static;
-
-
-  }
-} */
+.info {
+  text-align: left;
+  color: #EEEEEE;
+  margin: 2rem;
+}
