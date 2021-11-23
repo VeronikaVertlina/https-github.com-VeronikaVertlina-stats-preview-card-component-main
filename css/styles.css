@@ -1,45 +1,84 @@
 
+
 body {
-  background-color: #ffffff;
+  background-color: #F7F7F7;
   text-align: center;
-  margin: 5%;
+  background-image: url("../images/image-body2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 30px;
 }
 
+/*  Footer  */
 footer {
   /* background-color: #1B1938; */
   text-align: center;
-  margin-top: 5%;
-
+  padding: 20px;
+  color: black;
 }
 
-
+/*
 .container {
-  text-align: center;
-  display: inline-block;
-  width: 70%;
-  background-color: #232A61;
+  background-color: black;
+  width: 80%;
+  padding: 50px;
+  margin: auto;
+
+} */
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  color: white;
+  text-align: left;
+  /* padding: 20px; */
 }
 
-.card {
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* .card {
   float: left;
   text-align: center;
   width: 50%;
-}
+
+} */
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: #3E52A3;
 }
 
 .image {
   width: 100%;
+  background: darkviolet;
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 
-.info {
+/* .text {
   text-align: left;
   color: #EEEEEE;
   margin: 2rem;
+} */
+
+.middle-section {
+  display: inline-block;
+  padding: 50px;
+  text-align: center;
+  background-color: #1B1938;
+  margin: auto;
 }
