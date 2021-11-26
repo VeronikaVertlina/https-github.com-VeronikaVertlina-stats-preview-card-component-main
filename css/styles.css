@@ -3,22 +3,70 @@
 body {
   background-color: #F7F7F7;
   text-align: center;
-  background-image: url("../images/image-body2.jpg");
+  background-image: url("../images/image-body4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 80px 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 /*  Footer  */
 footer {
   /* background-color: #1B1938; */
   text-align: center;
-  padding: 20px;
-  color: black;
+  color: #1B1938;
 }
 
+.container{
+  background-color: black;
+  margin: auto;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  width: 80%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.flex-child {
+  float: left;
+  width: 50%;
+  background-color: #1B1938;
+}
+
+.left {
+  color: white;
+  text-align: left;
+  padding: 15px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.right {
+  background-color: darkviolet;
+  opacity: 0.6;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* p, h1 {
+  color: white;
+  text-align: left;
+}
+
+ul {
+  color: white;
+  text-align: left;
+  margin-left: 0;
+
+}
 /*
 .container {
   background-color: black;
@@ -28,20 +76,19 @@ footer {
 
 } */
 /* Create two equal columns that floats next to each other */
-.column {
+/* .column {
   float: left;
   width: 50%;
-  color: white;
-  text-align: left;
-  /* padding: 20px; */
+  padding: 20px;
+
 }
 
 /* Clear floats after the columns */
-.row:after {
+/* .row::after {
   content: "";
   display: table;
   clear: both;
-}
+}  */
 
 
 /* .card {
@@ -61,24 +108,16 @@ footer {
 }
 
 .image {
+  background-color: darkviolet;
+  opacity: 0.6;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
   width: 100%;
-  background: darkviolet;
-  opacity: 0.5;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
   }
-
+/*
 /* .text {
   text-align: left;
   color: #EEEEEE;
   margin: 2rem;
 } */
-
-.middle-section {
-  display: inline-block;
-  padding: 50px;
-  text-align: center;
-  background-color: #1B1938;
-  margin: auto;
-}
