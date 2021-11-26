@@ -20,6 +20,15 @@ footer {
   color: #1B1938;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
 .container{
   background-color: black;
   margin: auto;
@@ -42,7 +51,7 @@ footer {
   background-color: #1B1938;
 }
 
-.left {
+.left-colomn {
   color: white;
   text-align: left;
   padding: 15px;
@@ -50,63 +59,14 @@ footer {
   border-bottom-left-radius: 6px;
 }
 
-.right {
+.right-colomn {
   background-color: darkviolet;
-  opacity: 0.6;
+  opacity: 0.8;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
-/* p, h1 {
-  color: white;
-  text-align: left;
-}
 
-ul {
-  color: white;
-  text-align: left;
-  margin-left: 0;
-
-}
-/*
-.container {
-  background-color: black;
-  width: 80%;
-  padding: 50px;
-  margin: auto;
-
-} */
-/* Create two equal columns that floats next to each other */
-/* .column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-
-}
-
-/* Clear floats after the columns */
-/* .row::after {
-  content: "";
-  display: table;
-  clear: both;
-}  */
-
-
-/* .card {
-  float: left;
-  text-align: center;
-  width: 50%;
-
-} */
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3E52A3;
-}
 
 .image {
   display: block;
